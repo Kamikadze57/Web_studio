@@ -71,6 +71,8 @@ a {
   font-weight: 700;
   line-height: 30px;
   letter-spacing: 0.96px;
+  border-radius: 4px;
+  border: none;
 }
 .advantage-list-title {
   color: var(--main-color);
@@ -131,4 +133,28 @@ a {
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.28px;
+}
+
+.choise-list-item-btn {
+  border-radius: 4px;
+  border: none;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.48px;
+}
+.choise-list-item-btn:hover,
+.choise-list-item-btn:focus {
+  background: var(--accent-color);
+  color: #fff;
+}
+.catalog-item-title {
+  color: var(--main-color);
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 1.08px;
+}
+.catalog-item-subtitle {
+  color: var(--add-color);
+  line-height: 30px;
+  letter-spacing: 0.48px;
 }
