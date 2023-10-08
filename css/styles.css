@@ -55,7 +55,7 @@ a {
   text-align: center;
   font-size: 44px;
   font-weight: 900;
-  line-height: 60px;
+  line-height: 1,36;
   letter-spacing: 2.64px;
   text-transform: uppercase;
 }
@@ -66,11 +66,12 @@ a {
   color: #fff;
   font-size: 16px;
   font-weight: 700;
-  line-height: 30px;
+  line-height: 1,87;
   letter-spacing: 0.96px;
   border-radius: 4px;
   border: none;
   font-family: inherit;
+  cursor: pointer;
 }
 .advantage-item-title {
   color: var(--main-color);
@@ -80,7 +81,7 @@ a {
 .advantage-item-text {
   color: var(--add-color);
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1,71;
   letter-spacing: 0.42px;
 }
 .work-title {
@@ -120,7 +121,7 @@ a {
 .footer-address-link-map {
   color: #fff;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1,71;
   letter-spacing: 0.42px;
 }
 .footer-address-link {
@@ -134,7 +135,7 @@ a {
   border-radius: 4px;
   border: none;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.62;
   letter-spacing: 0.48px;
   font-family: inherit;
 }
@@ -142,15 +143,16 @@ a {
 .filter-list-item-btn:focus {
   background: var(--accent-color);
   color: #fff;
+  cursor: pointer;
 }
 .catalog-item-title {
   color: var(--main-color);
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 1.08px;
 }
 .catalog-item-subtitle {
   color: var(--add-color);
-  line-height: 30px;
+  line-height: 1.87;
   letter-spacing: 0.48px;
 }
