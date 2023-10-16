@@ -59,7 +59,7 @@ img {
 }
 .header {
   padding-top: 24px;
-  padding-bottom: 32px;
+  padding-bottom: 25px;
 }
 address {
   font-style: normal;
@@ -201,7 +201,7 @@ address {
 
 
 .portfolio {
-  margin-top: 94px;
+  padding-top: 94px;
 }
 .filter-list-item-btn {
   border-radius: 4px;
