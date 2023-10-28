@@ -191,6 +191,7 @@ address {
   background-color: #ffffff;
   border-radius: 4px;
 }
+
 .team-img {
   width: 270px;
   height: 260px;
@@ -217,7 +218,7 @@ address {
 }
 .footer-logo {
   color: #fff;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 .footer-address-link-map {
   color: #fff;
