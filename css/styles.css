@@ -265,6 +265,9 @@ address {
   flex-wrap: wrap;
   gap: 30px;
 }
+.portfolio-catalog-item {
+  flex-basis: 370px;
+}
 .catalog-item-title {
   color: var(--main-color);
   font-size: 18px;
