@@ -103,14 +103,25 @@ address {
   font-weight: 500;
   letter-spacing: 0.28px;
 }
+/* .contact-item::before {
+  content: '';
+  display: block;
+  height: 16px;
+  background-image: url('../images/SVG/envelope.svg');
+  background-repeat: no-repeat;
+  background-size: 16px 12px;
+} */
 .contact-link:hover,
 .contact-link:focus {
   color: var(--accent-color);
 }
 .hero {
+  background-image: url('../images/hero_bg.png');
   background-color: var(--add-black);
+  background-repeat: no-repeat;
+  background-position: center;
   padding-top: 200px;
-  padding-bottom: 200px;
+  padding-bottom: 200px; 
 }
 .hero-title {
   color: #fff;
@@ -147,6 +158,28 @@ address {
 }
 .advantage-item {
   flex-basis: calc((100% - 3*30px) / 3);
+}
+.advantage-item::before {
+  content: '';
+  display: block;
+  height: 120px;
+  border: none;
+  background-image: url('../images/SVG/antenna.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70px 70px;
+  border-radius: 4px;
+  background-color: #F5F4FA;
+  margin-bottom: 30px;
+}
+.advantage-item:nth-child(2)::before {
+  background-image: url('../images/SVG/clock.svg');
+}
+.advantage-item:nth-child(3)::before {
+  background-image: url('../images/SVG/diagram.svg');
+}
+.advantage-item:nth-child(4)::before {
+  background-image: url('../images/SVG/astronaut.svg');
 }
 .advantage-item-title {
   color: var(--main-color);
@@ -194,7 +227,19 @@ address {
   background-color: #ffffff;
   border-radius: 4px;
 }
-
+/* .team-item::after {
+  content: '';
+  display: block;
+  height: 44px;
+  border: none;
+  background-image: url('../images/SVG/instagram.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20px 20px;
+  border-radius: 50%;
+  background-color: #2f303a;
+  margin-bottom: 30px;
+} */
 .team-img {
   width: 270px;
   height: 260px;
@@ -250,18 +295,22 @@ address {
   justify-content: center;
 }
 .filter-list-item-btn {
+  min-width: 73px;
+  padding: 6px 22px;
   border-radius: 4px;
   border: none;
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.48px;
   font-family: inherit;
+  border-color: none;
 }
 .filter-list-item-btn:hover,
 .filter-list-item-btn:focus {
   background: var(--accent-color);
   color: #fff;
   cursor: pointer;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 .portfolio-catalog-list {
   display: flex;
