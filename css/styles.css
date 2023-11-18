@@ -227,19 +227,6 @@ address {
   background-color: #ffffff;
   border-radius: 4px;
 }
-/* .team-item::after {
-  content: '';
-  display: block;
-  height: 44px;
-  border: none;
-  background-image: url('../images/SVG/instagram.svg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 20px 20px;
-  border-radius: 50%;
-  background-color: #2f303a;
-  margin-bottom: 30px;
-} */
 .team-img {
   width: 270px;
   height: 260px;
@@ -299,11 +286,9 @@ address {
   padding: 6px 22px;
   border-radius: 4px;
   border: none;
-  font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.48px;
   font-family: inherit;
-  border-color: none;
 }
 .filter-list-item-btn:hover,
 .filter-list-item-btn:focus {
@@ -319,6 +304,10 @@ address {
 }
 .portfolio-catalog-item {
   flex-basis: calc((100% - 2*30px) / 3);
+}
+.catalog-item-text {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .catalog-item-title {
   color: var(--main-color);
