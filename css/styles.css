@@ -336,6 +336,75 @@ address {
 .footer-item:not(:last-child) {
   margin-bottom: 9px;
 }
+.footer > .container {
+  display: flex;
+}
+.footer-container-link {
+  margin-right: 70px;
+}
+.footer-container-soc {
+  margin-right: 93px;
+}
+.footer-soc-list-title {
+  color: #FFF;
+  font-size: 14px;
+  letter-spacing: 0.42px;
+  padding-bottom: 20px;
+}
+.footer-soc-list {
+  display: flex;
+  gap: 10px;
+}
+.footer-soc-item-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #43444d;
+}
+.footer-soc-item-svg {
+  fill: #FFF;
+}
+.footer-soc-item-link:hover {
+  background-color: var(--accent-color);
+}
+.footer-mail-input-title {
+  color: #FFF;
+  font-size: 14px;
+  letter-spacing: 0.42px;
+  padding-bottom: 20px;
+}
+.footer-mail-input {
+  width: 358px;
+  height: 50px;
+  padding-left: 16px;
+  border-radius: 4px;
+  border: 1px solid var(--add-color);
+  background-color: var(--add-black);
+}
+.footer-mail-input::placeholder {
+  color: var(--add-color);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+  letter-spacing: 0.48px;
+}
+.footer-mail-input-btn {
+  background-color: var(--accent-color);
+  border: none;
+  border-radius: 4px;
+  color: #FFF;
+  text-align: center;
+  font-weight: 700;
+  line-height: 30px; /* 187.5% */
+  letter-spacing: 0.96px;
+  padding: 10px 28px;
+}
+.footer-mail-input-btn-icon {
+  fill: #FFF;
+}
 
 .portfolio {
   padding-top: 94px;
