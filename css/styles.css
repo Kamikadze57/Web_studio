@@ -155,6 +155,15 @@ address {
   font-family: inherit;
   cursor: pointer;
   margin-left: 477px;
+  transition: 0.5s;
+  opacity: 0.7;
+}
+.hero-btn:hover, .hero-btn:focus {
+  cursor: pointer;
+  opacity: 1;
+}
+.hero-btn:active {
+  transform: scale(0.9);
 }
 .advantage {
   padding-top: 94px;
@@ -316,20 +325,27 @@ background: rgba(47, 48, 58, 0.80);
   width: 170px;
   height: 92px; 
   padding: 16px 32px;
-  border: #AFB1B8 1px solid;
-  border-radius: 4px;
   transition: all 0.3s;
-}
-.clients-list-item:hover {
-  border-color: var(--accent-color);
-  cursor: pointer;
+  position: relative;
 }
 .clients-list-item-link {
   fill:#AFB1B8;
   transition: all 0.3s;
+  height: inherit;
+  width: inherit;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: #AFB1B8 1px solid;
+  border-radius: 4px;
 }
-.clients-list-item:hover .clients-list-item-link {
+.clients-list-item-link:hover {
   fill: var(--accent-color);
+  border-color: var(--accent-color);
+  cursor: pointer;
 } 
 .footer {
   background-color: var(--add-black);
@@ -371,7 +387,7 @@ background: rgba(47, 48, 58, 0.80);
   margin-right: 70px;
 }
 .footer-container-soc {
-  margin-right: 93px;
+  margin-right: 90px;
 }
 .footer-soc-list-title {
   color: #FFF;
@@ -391,11 +407,12 @@ background: rgba(47, 48, 58, 0.80);
   height: 44px;
   border-radius: 50%;
   background-color: #43444d;
+  transition: 0.3s;
 }
 .footer-soc-item-svg {
   fill: #FFF;
 }
-.footer-soc-item-link:hover {
+.footer-soc-item-link:hover, .footer-soc-item-link:focus {
   background-color: var(--accent-color);
 }
 .footer-mail-input-title {
@@ -411,6 +428,7 @@ background: rgba(47, 48, 58, 0.80);
   border-radius: 4px;
   border: 1px solid var(--add-color);
   background-color: var(--add-black);
+  margin-right: 12px;
 }
 .footer-mail-input::placeholder {
   color: var(--add-color);
@@ -418,6 +436,9 @@ background: rgba(47, 48, 58, 0.80);
   font-weight: 400;
   line-height: 20px; /* 125% */
   letter-spacing: 0.48px;
+}
+.footer-mail-input:focus {
+  outline: var(--add-white);
 }
 .footer-mail-input-btn {
   background-color: var(--accent-color);
@@ -429,6 +450,15 @@ background: rgba(47, 48, 58, 0.80);
   line-height: 30px; /* 187.5% */
   letter-spacing: 0.96px;
   padding: 10px 28px;
+  transition: all 0.4s;
+  opacity: 0.7;
+}
+.footer-mail-input-btn:hover, .footer-mail-input-btn:focus {
+  cursor: pointer;
+  opacity: 1;
+}
+.footer-mail-input-btn:active {
+  transform: scale(0.9);
 }
 .footer-mail-input-btn-icon {
   fill: #FFF;
