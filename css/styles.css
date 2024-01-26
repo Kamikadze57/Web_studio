@@ -478,7 +478,7 @@ address {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.2);
   opacity: 1;
 }
 .backdrop.is-hidden {
@@ -492,7 +492,7 @@ address {
   position: absolute;
   top: 50%;
   left: 50%;
-  min-width: 400px;
+  min-width: 530px;
   min-height: 580px;
   padding: 40px;
   background-color: #fff;
@@ -533,22 +533,51 @@ address {
   font-size: 12px;
   letter-spacing: 0.12px;
   position: relative;
-  display: flex;
-  flex-direction: column;
+  display: block;
+  margin-bottom: 10px;
 }
 .modal-hero-label-input {
-  /* padding: 12px 11px; */
+  margin-top: 4px;
+  padding: 12px 42px;
   width: 100%;
-  height: 40px;
+  border-radius: 4px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  outline: none;
 }
-/* .modal-hero-label-input-svg {
+.modal-hero-label-input:focus {
+  border: 1px solid #2196f3;
+}
+.modal-hero-label-input-svg {
   position: absolute;
+  bottom: 11px;
+  left: 12px;
+}
+/* .modal-hero-label-input:focus .modal-hero-label-input-svg {
+  fill: var(--accent-color);
 } */
 .modal-hero-label-textarea {
   resize: none;
   padding: 12px 16px;
   height: 96px;
   margin-bottom: 20px;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  outline: none;
+}
+.modal-hero-label-textarea:focus {
+  border: 1px solid #2196f3;
+}
+.modal-hero-label-textarea::placeholder {
+  color: rgba(117, 117, 117, 0.50);
+font-family: Roboto;
+font-size: 12px;
+font-weight: 400;
+letter-spacing: 0.12px;
+}
+.label-check {
+  display: flex;
+  justify-content: center;
 }
 .modal-hero-label-check {
   margin-right: 7px;
@@ -558,7 +587,6 @@ address {
   font-size: 14px;
   line-height: 24px; /* 171.429% */
   letter-spacing: 0.42px;
-  margin-bottom: 30px;
 }
 .modal-hero-label-link-agree {
   color: var(--accent-color);
@@ -579,6 +607,7 @@ address {
   cursor: pointer;
   transition: 0.3s;
   opacity: 0.7;
+  margin-top: 30px;
 }
 .modal-hero-btn-submit:hover {
   opacity: 1;
