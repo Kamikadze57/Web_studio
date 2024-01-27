@@ -461,7 +461,7 @@ address {
   line-height: 20px; /* 125% */
   letter-spacing: 0.48px;
 }
-.footer-mail-input:focus {
+.footer-mail-input:focus, .footer-mail-input:hover {
   border-color: var(--accent-color);
 }
 .footer-mail-input-btn {
@@ -564,6 +564,9 @@ address {
 .modal-hero-label-input:focus {
   border: 1px solid #2196f3;
 }
+.modal-hero-label:last-child {
+  margin-bottom: 20px;
+}
 .modal-hero-label-input-svg {
   position: absolute;
   bottom: 11px;
@@ -595,7 +598,7 @@ letter-spacing: 0.12px;
 .label-check {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 .modal-hero-label-check {
   margin-right: 7px;
