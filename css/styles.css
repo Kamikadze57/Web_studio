@@ -670,9 +670,11 @@ letter-spacing: 0.12px;
   flex-wrap: wrap;
   gap: 30px;
 }
-.portfolio-catalog-cont-img {
+.portfolio-catalog-item {
   flex-basis: calc((100% - 2 * 30px) / 3);
   border: 1px solid #eee;
+}
+.portfolio-catalog-cont-img {
   position: relative;
   overflow: hidden;
 }
