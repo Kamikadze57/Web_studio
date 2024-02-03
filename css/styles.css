@@ -560,17 +560,22 @@ address {
   border-radius: 4px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   outline: none;
+  transition: 0.3s;
 }
-.modal-hero-label-input:focus {
+.modal-hero-label-input:focus, .modal-hero-label-input:hover {
   border: 1px solid #2196f3;
 }
 .modal-hero-label:nth-child(4) {
   margin-bottom: 20px;
 }
+.modal-hero-label-input:hover + .modal-hero-label-input-svg, .modal-hero-label-input:focus + .modal-hero-label-input-svg {
+  fill: var(--accent-color);
+}
 .modal-hero-label-input-svg {
   position: absolute;
   bottom: 11px;
   left: 12px;
+  transition: 0.3s;
 }
 /* .modal-hero-label-input:focus .modal-hero-label-input-svg {
   fill: var(--accent-color);
@@ -584,8 +589,9 @@ address {
   border-radius: 4px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   outline: none;
+  transition: 0.3s;
 }
-.modal-hero-label-textarea:focus {
+.modal-hero-label-textarea:focus, .modal-hero-label-textarea:hover {
   border: 1px solid #2196f3;
 }
 .modal-hero-label-textarea::placeholder {
