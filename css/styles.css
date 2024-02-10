@@ -86,6 +86,7 @@ address {
   display: inline;
   padding: 31px 0;
   position: relative;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .current {
   color: var(--accent-color);
@@ -117,6 +118,7 @@ address {
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.28px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 .envelope {
   fill: var(--add-color);
@@ -171,7 +173,7 @@ address {
   font-family: inherit;
   cursor: pointer;
   margin-left: 477px;
-  transition: 0.5s;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1); 
   opacity: 0.7;
 }
 .hero-btn:hover,
@@ -306,12 +308,12 @@ address {
 .team-item-list-item-link {
   border-radius: 50%;
   padding: 12px;
-  transition: all 0.3s;
   width: 44px;
   height: 44px;
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 .team-item-list-item-link:hover,
 .team-item-list-item-link:focus {
@@ -324,7 +326,7 @@ address {
 }
 .soc-link-svg {
   fill: #afb1b8;
-  transition: all 0.3s;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 .clients {
   padding-top: 94px;
@@ -345,12 +347,10 @@ address {
   width: 170px;
   height: 92px;
   padding: 16px 32px;
-  transition: all 0.3s;
   position: relative;
 }
 .clients-list-item-link {
   fill: #afb1b8;
-  transition: all 0.3s;
   height: inherit;
   width: inherit;
   position: absolute;
@@ -361,6 +361,7 @@ address {
   justify-content: center;
   border: #afb1b8 1px solid;
   border-radius: 4px;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 .clients-list-item-link:hover {
   fill: var(--accent-color);
@@ -382,22 +383,22 @@ address {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.42px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 .footer-address-link-map:hover,
 .footer-address-link-map:focus {
   color: var(--accent-color);
-  transition: 0.3s;
 }
 .footer-address-link {
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.28px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 .footer-address-link:hover,
 .footer-address-link:focus {
   color: var(--accent-color);
-  transition: 0.3s;
 }
 .footer-item:not(:last-child) {
   margin-bottom: 9px;
@@ -429,7 +430,7 @@ address {
   height: 44px;
   border-radius: 50%;
   background-color: #43444d;
-  transition: 0.3s;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 .footer-soc-item-svg {
   fill: #fff;
@@ -452,7 +453,7 @@ address {
   background-color: var(--add-black);
   margin-right: 12px;
   outline: none;
-  transition: 0.1s;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 .footer-mail-input::placeholder {
   color: var(--add-color);
@@ -529,7 +530,7 @@ address {
   position: absolute;
   right: 8px;
   top: 8px;
-  transition: 0.3s;
+  transition: all 0.3s;
   cursor: pointer;
 }
 .modal-hero-btn:focus,
@@ -560,7 +561,7 @@ address {
   border-radius: 4px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   outline: none;
-  transition: 0.3s;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 .modal-hero-label-input:focus, .modal-hero-label-input:hover {
   border: 1px solid #2196f3;
@@ -575,7 +576,7 @@ address {
   position: absolute;
   bottom: 11px;
   left: 12px;
-  transition: 0.3s;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 /* .modal-hero-label-input:focus .modal-hero-label-input-svg {
   fill: var(--accent-color);
@@ -589,7 +590,7 @@ address {
   border-radius: 4px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   outline: none;
-  transition: 0.3s;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 .modal-hero-label-textarea:focus, .modal-hero-label-textarea:hover {
   border: 1px solid #2196f3;
@@ -632,7 +633,7 @@ letter-spacing: 0.12px;
   background: var(--accent-color);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   cursor: pointer;
-  transition: 0.3s;
+  transition: all 0.3s;
   opacity: 0.7;
   margin-top: 30px;
 }
@@ -662,6 +663,7 @@ letter-spacing: 0.12px;
   font-weight: 500;
   letter-spacing: 0.48px;
   font-family: inherit;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 .filter-list-item-btn:hover,
 .filter-list-item-btn:focus {
@@ -695,8 +697,8 @@ letter-spacing: 0.12px;
   height: 100%;
   background-color: rgba(33, 150, 243, 0.90);
   padding: 63px 24px;
-  transform: translateY(100%);
-  transition: transform 250ms ease;
+  transform: translateY(101%);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 .project-overlay-text {
   color: #FFF;
