@@ -100,9 +100,8 @@ address {
   bottom: 0;
   border-radius: 5px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transform: scale(1);
 }
-.current:hover .current::after, .current:focus .current::after {
+.current:hover .current:hover::after {
   transform: scale(0.5);
 }
 .nav-link:hover,
